@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #1a1a1a;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav a, .nav select {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url(https://www.figma.com/file/AlXi5E7iuRIvToavkSuuLe/image/95254beaaafd285b4e172b29b2bb169b461afa6d);
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.updates {
+    padding: 20px;
+    text-align: center;
+}
+
+.update-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.champions, .stage {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer nav a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
